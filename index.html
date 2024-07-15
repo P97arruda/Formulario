@@ -33,8 +33,31 @@
             <option value="programdor">Engenheiro</option>
             <option value="programdor">Policial</option>
           </select>
-        
         </div>
+        <!-- 7 - atributo selected -->
+
+        <div>
+            <label for="contract"> Você leu os termos do contrato?</label>
+            <select name="contract">
+              <option value="sim"> Sim </option>
+              <option value="Nao" selected> Nao </option>  
+            </select>
+        </div>
+
+        <!-- 8 - multiplas opções-->
+        <div>
+            <label for="items">Selecione os itens desejados:</label>
+            <select name="items" multiple>
+             <option value="pera">Pera</option>
+             <option value="Arroz">Arroz</option>
+             <option value="Feijão">Feijão</option>
+             <option value="Milho">Milho</option>
+             <option value="Pasta">Pasta</option>
+            </select>
+        </div>
+        
+
+
        <!-- 5 envio formulario-->
         <input type="submit" value="Enviar">
 
