@@ -70,8 +70,50 @@
             <label for="lastname">Sobrenome:</label>
             <input type="text" name="lastname">
            </fieldset> 
+         </div>
+
+         <!-- 11 - datalist-->
+         <div>
+          <label for="flavor">Escola o sabor:</label>
+          <input type="text" list="flavor" name="flavor">  
+          
+          <datalist id="flavor">
+            <option value="Cereja">Cereja</option>
+            <option value="Morango">Morango</option>
+            <option value="Abacaxi">Abacaxi</option>
+            <option value="Banana">Banana</option>
+            <option value="Uva">Uva</option>
+          </datalist>
+        </div>
+
+        <!-- 12 senha -->
+        <div>
+           <label for="passowrd">Digite a sua senha:</label> 
+           <input type="password" name="passowrd">
+        </div>
+
+        <!-- 14 - radio button -->
+        <div>
+        <label for="car_model">Escola o modelo do seu carro:</label>
+        <div class="radio">
+            <input type="radio" value="bmw" name="car_model">
+            <label for="bmw">Bmw</label>
 
         </div>
+        <div class="radio">
+            <input type="radio" value="Renoult" name="car_model">
+            <label for="bmw">Renoult</label>
+
+        </div>
+        <div class="radio">
+            <input type="radio" value="wv" name="car_model">
+            <label for="bmw">WV</label>
+
+        </div>
+        </div>
+
+        <!-- 13 - resetar form-->
+        <input type="reset" value="Limpar">
 
 
        <!-- 5 envio formulario-->
